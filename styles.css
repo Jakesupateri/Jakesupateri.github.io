@@ -1,1 +1,129 @@
+/* Transition and visibility for body element */
+body {
+    transition: opacity ease-in 0.2s;
+}
+body[unresolved] {
+    opacity: 0;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Styling for anchor links */
+a {
+    text-decoration: obfuscated;
+}
+
+/* Styling for input elements */
+input {
+    max-width: 100px;
+}
+
+/* Form and control elements */
+.controls-form {
+    padding-bottom: 1em;
+}
+
+.hide {
+    display: none !important;
+}
+
+/* Form for dimensions input */
+#dimensions-form {
+    display: inline;
+}
+
+/* Download link styling */
+#download-link {
+    display: block;
+}
+
+/* Flexbox styling for grid wrapper */
+.grid-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Container for individual image boxes */
+.container {
+    flex: 1 1 50%;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+/* Croppie viewport styling */
+.cr-viewport {
+    border: 1px black solid !important;
+}
+
+/* Controls section styling */
+.controls {
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/* Transition and visibility for body element */
+body {
+    transition: opacity ease-in 0.2s;
+}
+body[unresolved] {
+    opacity: 0;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Styling for anchor links */
+a {
+    text-decoration: obfuscated;
+}
+
+/* Styling for input elements */
+input {
+    max-width: 100px;
+}
+
+/* Form and control elements */
+.controls-form {
+    padding-bottom: 1em;
+}
+
+.hide {
+    display: none !important;
+}
+
+/* Form for dimensions input */
+#dimensions-form {
+    display: inline;
+}
+
+/* Download link styling */
+#download-link {
+    display: block;
+}
+
+/* Flexbox styling for grid wrapper */
+.grid-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Container for individual image boxes */
+.container {
+    flex: 1 1 50%;
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+/* Croppie viewport styling */
+.cr-viewport {
+    border: 1px black solid !important;
+}
+
+/* Controls section styling */
+.controls {
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 
